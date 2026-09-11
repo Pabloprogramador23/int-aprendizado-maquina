@@ -1,0 +1,26 @@
+# Reversa
+.reversa/config.user.toml
+_reversa_sdd/
+
+# Python / venv
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+{
+    "modelo_base": "pierreguillou/gpt2-small-portuguese",
+    "epocas": 1,
+    "batch_size": 2,
+    "learning_rate": 0.0005,
+    "max_length": 256,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "loss_validacao_inicial": 3.576941208044688,
+    "loss_treino_epoca_1": 2.806303425381581,
+    "loss_validacao_epoca_1": 2.5227568447589874,
+    "duracao_segundos": 50.28753447532654,
+    "pergunta_baseline": "Como uma pequena empresa pode fidelizar seus clientes?",
+    "resposta_baseline": "A resposta é que a empresa não tem nenhuma razão para fazer isso.\n\nO que se sabe sobre o assunto, é que os consumidores são muito mais numerosos do que as empresas de tecnologia e podem ser facilmente confundidos com outras pessoas ou mesmo até mesmo um grupo de pessoas diferentes.\nA empresa também possui vantagens em relação ao cliente, pois eles têm acesso aos serviços oferecidos por outros fornecedores ("
+}

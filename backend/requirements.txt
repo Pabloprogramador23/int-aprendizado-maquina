@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+torch
+transformers
+peft
+accelerate
+pandas
+scikit-learn
+pydantic

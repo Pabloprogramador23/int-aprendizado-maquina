@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-09-09T00:00:00Z",
+  "project_root": "C:\\Users\\Pablo\\Desktop\\int-aprendizado-maquina",
+  "languages": [
+    { "name": "Python", "extensions": [".ipynb"], "file_count": 1 },
+    { "name": "Markdown", "extensions": [".md"], "file_count": 6 },
+    { "name": "JSON/JSONL", "extensions": [".json", ".jsonl"], "file_count": 10 }
+  ],
+  "primary_language": "Python",
+  "frameworks": [
+    { "name": "torch", "version": "2.12.1+cu132", "source": "venv/site-packages" },
+    { "name": "transformers", "version": "5.16.1", "source": "venv/site-packages" },
+    { "name": "peft", "version": "0.20.0", "source": "venv/site-packages" },
+    { "name": "accelerate", "version": "1.14.0", "source": "venv/site-packages" },
+    { "name": "pandas", "version": "3.0.5", "source": "venv/site-packages" },
+    { "name": "scikit-learn", "version": "1.9.0", "source": "venv/site-packages" },
+    { "name": "matplotlib", "version": "3.11.1", "source": "venv/site-packages" },
+    { "name": "seaborn", "version": "0.13.2", "source": "venv/site-packages" }
+  ],
+  "package_manager": "pip (venv, sem requirements.txt)",
+  "entry_points": [
+    { "path": "code.ipynb", "type": "notebook_pipeline" }
+  ],
+  "config_files": [],
+  "ci_cd": [],
+  "docker": {},
+  "database_hints": [],
+  "test_framework": null,
+  "test_file_count": 0,
+  "modules": [
+    "exploracao_dados",
+    "preparacao_dados",
+    "tokenizacao",
+    "carregamento_modelo_base",
+    "aplicacao_lora",
+    "treino",
+    "avaliacao_qualitativa"
+  ],
+  "total_files": 17,
+  "ml_pipeline": {
+    "task": "fine-tuning de LLM (instruction-tuning) via LoRA",
+    "base_model": "pierreguillou/gpt2-small-portuguese",
+    "dataset": "data/negocios.jsonl",
+    "dataset_size": 1200,
+    "checkpoints": [
+      "modelos/lora_negocios_epoca_1",
+      "modelos/lora_negocios_epoca_2",
+      "modelos/lora_negocios_epoca_3"
+    ]
+  },
+  "organization_suggestion": {
+    "granularity": "feature",
+    "rationale": "Não há roteamento, pastas de domínio nem specs BDD; o projeto é um único notebook sequencial, então as specs se organizam melhor por etapa/feature do pipeline de ML.",
+    "signals": [],
+    "features": [
+      "exploracao-dados",
+      "preparacao-dados",
+      "tokenizacao",
+      "carregamento-modelo-base",
+      "aplicacao-lora",
+      "treino",
+      "avaliacao-qualitativa"
+    ]
+  }
+}

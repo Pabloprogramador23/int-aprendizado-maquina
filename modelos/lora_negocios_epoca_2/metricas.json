@@ -1,0 +1,14 @@
+{
+    "modelo_base": "pierreguillou/gpt2-small-portuguese",
+    "epocas_acumuladas": 2,
+    "batch_size": 2,
+    "learning_rate": 0.0005,
+    "max_length": 256,
+    "loss_validacao_inicial": 3.576941208044688,
+    "loss_treino_epoca_1": 2.806303425381581,
+    "loss_validacao_epoca_1": 2.5227568447589874,
+    "loss_treino_epoca_2": 2.641441050171852,
+    "loss_validacao_epoca_2": 2.4723933974901837,
+    "duracao_epoca_1": 50.28753447532654,
+    "duracao_epoca_2": 58.13101768493652
+}

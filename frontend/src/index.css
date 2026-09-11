@@ -1,0 +1,50 @@
+:root {
+  --bg: #0d0f14;
+  --surface: #161922;
+  --surface-2: #1d2130;
+  --border: #2a2f3f;
+  --text: #eef0f5;
+  --text-dim: #8b93a7;
+  --accent: oklch(0.72 0.16 292);
+  --accent-dim: oklch(0.72 0.16 292 / 0.16);
+  --good: oklch(0.75 0.15 155);
+  --bad: oklch(0.7 0.18 25);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Sora", system-ui, sans-serif;
+}
+
+.mono {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+a {
+  color: var(--accent);
+}
+a:hover {
+  color: oklch(0.8 0.16 292);
+}
+
+button {
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+}
