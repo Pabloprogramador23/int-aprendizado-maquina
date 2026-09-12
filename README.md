@@ -160,3 +160,4 @@ Para rodar em segundo plano: `docker compose up --build -d`. Para parar: `docker
 - O backend nunca escreve em `data/negocios.jsonl` (dataset é somente leitura) nem em `code.ipynb`
 
 Especificações completas do sistema (requisitos, arquitetura, decisões técnicas) estão em `_reversa_sdd/`.
+ótimo

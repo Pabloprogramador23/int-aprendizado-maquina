@@ -1,6 +1,14 @@
 # Reversa
 .reversa/config.user.toml
 _reversa_sdd/
+.agents
+.claude
+.reversa
+.venv
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
 
 # Python / venv
 venv/
